@@ -1,11 +1,12 @@
 function inverseWhile() {
-  var fiveNumbers;
-  var i = 4;
+  var i = 5;
+  var fiveNumbers = "";
   while (i >= 0) {
-    if (fiveNumbers === undefined) {
-      fiveNumbers = i + 1;
+    fiveNumbers += i;
+
+    if (i != 0) {
+      fiveNumbers += ",";
     }
-    fiveNumbers = fiveNumbers + "," + i;
     i--;
   }
   return fiveNumbers;
