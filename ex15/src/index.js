@@ -1,11 +1,11 @@
 function myDoWhile() {
-  var myNumbers;
   var i = 1;
+  var myNumbers = "";
   do {
-    if (myNumbers === undefined) {
-      myNumbers = "0";
+    myNumbers += i;
+    if (i != 9) {
+      myNumbers += ", ";
     }
-    myNumbers = myNumbers + ", " + i;
     i++;
   } while (i < 10);
   return myNumbers;
