@@ -1,5 +1,5 @@
 function myDoWhile() {
-  var i = 1;
+  var i = 0;
   var myNumbers = "";
   do {
     myNumbers += i;

@@ -4,6 +4,7 @@ function logicalOrOperator(num) {
   }
   return "In";
 }
+
 logicalOrOperator(0);
 logicalOrOperator(9);
 logicalOrOperator(20);
@@ -19,4 +20,4 @@ console.log(logicalOrOperator(23));
 console.log(logicalOrOperator(30));
 console.log(logicalOrOperator(31));
 console.log(logicalOrOperator(105));
-module.exporst = logicalOrOperator;
+module.exports = logicalOrOperator;
